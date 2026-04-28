@@ -1,0 +1,24 @@
+﻿  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3630,56): warning C4244: “参数”: 从“_Ty”转换到“float”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3630,56): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3630,56): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3630,56): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3630,56): warning C4244:         ]
+  (编译源文件“main/main.cpp”)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3630,56):
+      模板实例化上下文(最早的实例化上下文)为
+          C:\Users\xioayu\github\Raylib for Gui\Raylib for Gui\Raylib for Gui\main\main.cpp(67,24):
+          查看对正在编译的函数 模板 实例化“T *GUIManager::createWidget<GUIPanel,int,int,float,float>(int,int,int &&,int &&,float &&,float &&)”的引用
+          with
+          [
+              T=GUIPanel
+          ]
+          C:\Users\xioayu\github\Raylib for Gui\Raylib for Gui\Raylib for Gui\main\backends\gui\gui_manager.h(38,28):
+          查看对正在编译的函数 模板 实例化“std::unique_ptr<GUIPanel,std::default_delete<GUIPanel>> std::make_unique<GUIPanel,int&,int&,_Ty,_Ty,float,float,0>(int &,int &,_Ty &&,_Ty &&,float &&,float &&)”的引用
+          with
+          [
+              _Ty=int
+          ]
+  
+LINK : warning LNK4044: 无法识别的选项“/utf-8”；已忽略
+  Raylib for Gui.vcxproj -> C:\Users\xioayu\github\Raylib for Gui\Raylib for Gui\x64\Debug\Raylib for Gui.exe
