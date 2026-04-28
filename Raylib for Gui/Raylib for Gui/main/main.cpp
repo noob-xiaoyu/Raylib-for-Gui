@@ -282,7 +282,7 @@ int main() {
         editor->SetFont(16.0f, 1.0f, 22.0f);
         //editor->SetStyle(TextBoxStyle::CodeEditor);
         editor->SetText(
-            "// RL_Gui 文本编辑器演示\n"
+            "// 文本编辑器演示\n"
             "#include <iostream>\n"
             "\n"
             "int main() {\n"
